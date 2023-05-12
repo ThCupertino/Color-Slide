@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem 40rem;
+  height: 25rem;
+  gap: 1rem;
+  background-color: transparent;
+  border-radius: 36px;
+  border: 1px solid white;
+  box-shadow: 10px 15px 20px black;
+}
+
+.container-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+  font-family:'Segoe UI';
+  font-weight: 700;
+}
+
